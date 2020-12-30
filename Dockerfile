@@ -5,5 +5,4 @@ RUN apt update && apt install autoconf automake libtool flex bison gperf gawk g+
     ./autogen.sh; \
     ./configure --enable-maintainer-mode; \
     make; \
-
-
+    make install
